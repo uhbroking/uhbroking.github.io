@@ -1,5 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>雷某人的笔记本</title><link>https://uhbroking.github.io</link><description>一个呆呆的大学生在学习编程</description><copyright>雷某人的笔记本</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/302327665?v=4&amp;size=64</url><title>avatar</title><link>https://uhbroking.github.io</link></image><lastBuildDate>Sat, 11 Jul 2026 02:29:31 +0000</lastBuildDate><managingEditor>雷某人的笔记本</managingEditor><ttl>60</ttl><webMaster>雷某人的笔记本</webMaster><item><title>有关于如何处理输入数据个数不定的题目</title><link>https://uhbroking.github.io/post/you-guan-yu-ru-he-chu-li-shu-ru-shu-ju-ge-shu-bu-ding-de-ti-mu.html</link><description># 有关于如何处理输入数据个数不定的题目
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>雷某人的笔记本</title><link>https://uhbroking.github.io</link><description>一个呆呆的大学生在学习编程</description><copyright>雷某人的笔记本</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/302327665?v=4&amp;size=64</url><title>avatar</title><link>https://uhbroking.github.io</link></image><lastBuildDate>Tue, 14 Jul 2026 09:39:25 +0000</lastBuildDate><managingEditor>雷某人的笔记本</managingEditor><ttl>60</ttl><webMaster>雷某人的笔记本</webMaster><item><title>字符串的一些基础内容</title><link>https://uhbroking.github.io/post/zi-fu-chuan-de-yi-xie-ji-chu-nei-rong.html</link><description>
+# 基础内容
+
+## 1.string的大小和容量
+
+### size() 、length() 和sizeof()
+
+size返回的是size_t类型，length返回的是int类型
+size可以用于stl容器比如vector等等，length仅可以用于字符串类型
+sizeof返回的所占用的内存大小
+
+example
+```C++
+void test2()
+{
+    string s('1234567');
+    cout &lt;&lt; 'size=' &lt;&lt; s.size() &lt;&lt; endl;
+    cout &lt;&lt; 'length=' &lt;&lt; s.length() &lt;&lt; endl;
+}
+```
+
+## 2.字符串的比较
+
+&gt; C ++字符串支持常见的比较操作符（&gt;,&gt;=,&lt;,&lt;=,==,!=），甚至支持string与C-string的比较(如 str&lt;”hello”)。</description><guid isPermaLink="true">https://uhbroking.github.io/post/zi-fu-chuan-de-yi-xie-ji-chu-nei-rong.html</guid><pubDate>Tue, 14 Jul 2026 09:38:58 +0000</pubDate></item><item><title>有关于如何处理输入数据个数不定的题目</title><link>https://uhbroking.github.io/post/you-guan-yu-ru-he-chu-li-shu-ru-shu-ju-ge-shu-bu-ding-de-ti-mu.html</link><description># 有关于如何处理输入数据个数不定的题目
 
 
 ## 其中题目如下
